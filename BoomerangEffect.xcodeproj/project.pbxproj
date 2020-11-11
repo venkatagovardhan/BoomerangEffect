@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849CE43B255B93E3007565FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE43A255B93E3007565FF /* AppDelegate.swift */; };
+		849CE43D255B93E3007565FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE43C255B93E3007565FF /* SceneDelegate.swift */; };
+		849CE43F255B93E3007565FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE43E255B93E3007565FF /* ViewController.swift */; };
+		849CE442255B93E3007565FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CE440255B93E3007565FF /* Main.storyboard */; };
+		849CE444255B93E6007565FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CE443255B93E6007565FF /* Assets.xcassets */; };
+		849CE447255B93E6007565FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CE445255B93E6007565FF /* LaunchScreen.storyboard */; };
+		849CE452255B93E6007565FF /* BoomerangEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE451255B93E6007565FF /* BoomerangEffectTests.swift */; };
+		849CE45D255B93E6007565FF /* BoomerangEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE45C255B93E6007565FF /* BoomerangEffectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849CE44E255B93E6007565FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849CE42F255B93E3007565FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849CE436255B93E3007565FF;
+			remoteInfo = BoomerangEffect;
+		};
+		849CE459255B93E6007565FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849CE42F255B93E3007565FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849CE436255B93E3007565FF;
+			remoteInfo = BoomerangEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849CE437255B93E3007565FF /* BoomerangEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomerangEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CE43A255B93E3007565FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849CE43C255B93E3007565FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		849CE43E255B93E3007565FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849CE441255B93E3007565FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849CE443255B93E6007565FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849CE446255B93E6007565FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849CE448255B93E6007565FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849CE44D255B93E6007565FF /* BoomerangEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomerangEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CE451255B93E6007565FF /* BoomerangEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangEffectTests.swift; sourceTree = "<group>"; };
+		849CE453255B93E6007565FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849CE458255B93E6007565FF /* BoomerangEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomerangEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CE45C255B93E6007565FF /* BoomerangEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangEffectUITests.swift; sourceTree = "<group>"; };
+		849CE45E255B93E6007565FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849CE434255B93E3007565FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CE44A255B93E6007565FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CE455255B93E6007565FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849CE42E255B93E3007565FF = {
+			isa = PBXGroup;
+			children = (
+				849CE439255B93E3007565FF /* BoomerangEffect */,
+				849CE450255B93E6007565FF /* BoomerangEffectTests */,
+				849CE45B255B93E6007565FF /* BoomerangEffectUITests */,
+				849CE438255B93E3007565FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849CE438255B93E3007565FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849CE437255B93E3007565FF /* BoomerangEffect.app */,
+				849CE44D255B93E6007565FF /* BoomerangEffectTests.xctest */,
+				849CE458255B93E6007565FF /* BoomerangEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849CE439255B93E3007565FF /* BoomerangEffect */ = {
+			isa = PBXGroup;
+			children = (
+				849CE43A255B93E3007565FF /* AppDelegate.swift */,
+				849CE43C255B93E3007565FF /* SceneDelegate.swift */,
+				849CE43E255B93E3007565FF /* ViewController.swift */,
+				849CE440255B93E3007565FF /* Main.storyboard */,
+				849CE443255B93E6007565FF /* Assets.xcassets */,
+				849CE445255B93E6007565FF /* LaunchScreen.storyboard */,
+				849CE448255B93E6007565FF /* Info.plist */,
+			);
+			path = BoomerangEffect;
+			sourceTree = "<group>";
+		};
+		849CE450255B93E6007565FF /* BoomerangEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				849CE451255B93E6007565FF /* BoomerangEffectTests.swift */,
+				849CE453255B93E6007565FF /* Info.plist */,
+			);
+			path = BoomerangEffectTests;
+			sourceTree = "<group>";
+		};
+		849CE45B255B93E6007565FF /* BoomerangEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849CE45C255B93E6007565FF /* BoomerangEffectUITests.swift */,
+				849CE45E255B93E6007565FF /* Info.plist */,
+			);
+			path = BoomerangEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849CE436255B93E3007565FF /* BoomerangEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849CE461255B93E6007565FF /* Build configuration list for PBXNativeTarget "BoomerangEffect" */;
+			buildPhases = (
+				849CE433255B93E3007565FF /* Sources */,
+				849CE434255B93E3007565FF /* Frameworks */,
+				849CE435255B93E3007565FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoomerangEffect;
+			productName = BoomerangEffect;
+			productReference = 849CE437255B93E3007565FF /* BoomerangEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849CE44C255B93E6007565FF /* BoomerangEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849CE464255B93E6007565FF /* Build configuration list for PBXNativeTarget "BoomerangEffectTests" */;
+			buildPhases = (
+				849CE449255B93E6007565FF /* Sources */,
+				849CE44A255B93E6007565FF /* Frameworks */,
+				849CE44B255B93E6007565FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849CE44F255B93E6007565FF /* PBXTargetDependency */,
+			);
+			name = BoomerangEffectTests;
+			productName = BoomerangEffectTests;
+			productReference = 849CE44D255B93E6007565FF /* BoomerangEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849CE457255B93E6007565FF /* BoomerangEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849CE467255B93E6007565FF /* Build configuration list for PBXNativeTarget "BoomerangEffectUITests" */;
+			buildPhases = (
+				849CE454255B93E6007565FF /* Sources */,
+				849CE455255B93E6007565FF /* Frameworks */,
+				849CE456255B93E6007565FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849CE45A255B93E6007565FF /* PBXTargetDependency */,
+			);
+			name = BoomerangEffectUITests;
+			productName = BoomerangEffectUITests;
+			productReference = 849CE458255B93E6007565FF /* BoomerangEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849CE42F255B93E3007565FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					849CE436255B93E3007565FF = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					849CE44C255B93E6007565FF = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 849CE436255B93E3007565FF;
+					};
+					849CE457255B93E6007565FF = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 849CE436255B93E3007565FF;
+					};
+				};
+			};
+			buildConfigurationList = 849CE432255B93E3007565FF /* Build configuration list for PBXProject "BoomerangEffect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849CE42E255B93E3007565FF;
+			productRefGroup = 849CE438255B93E3007565FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849CE436255B93E3007565FF /* BoomerangEffect */,
+				849CE44C255B93E6007565FF /* BoomerangEffectTests */,
+				849CE457255B93E6007565FF /* BoomerangEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849CE435255B93E3007565FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CE447255B93E6007565FF /* LaunchScreen.storyboard in Resources */,
+				849CE444255B93E6007565FF /* Assets.xcassets in Resources */,
+				849CE442255B93E3007565FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CE44B255B93E6007565FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CE456255B93E6007565FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849CE433255B93E3007565FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CE43F255B93E3007565FF /* ViewController.swift in Sources */,
+				849CE43B255B93E3007565FF /* AppDelegate.swift in Sources */,
+				849CE43D255B93E3007565FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CE449255B93E6007565FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CE452255B93E6007565FF /* BoomerangEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CE454255B93E6007565FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849CE45D255B93E6007565FF /* BoomerangEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849CE44F255B93E6007565FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849CE436255B93E3007565FF /* BoomerangEffect */;
+			targetProxy = 849CE44E255B93E6007565FF /* PBXContainerItemProxy */;
+		};
+		849CE45A255B93E6007565FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849CE436255B93E3007565FF /* BoomerangEffect */;
+			targetProxy = 849CE459255B93E6007565FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849CE440255B93E3007565FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849CE441255B93E3007565FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849CE445255B93E6007565FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849CE446255B93E6007565FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849CE45F255B93E6007565FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849CE460255B93E6007565FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849CE462255B93E6007565FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STC4XW93GM;
+				INFOPLIST_FILE = BoomerangEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkatagovadrhangoli.BoomerangEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849CE463255B93E6007565FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STC4XW93GM;
+				INFOPLIST_FILE = BoomerangEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkatagovadrhangoli.BoomerangEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849CE465255B93E6007565FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STC4XW93GM;
+				INFOPLIST_FILE = BoomerangEffectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkatagovadrhangoli.BoomerangEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoomerangEffect.app/BoomerangEffect";
+			};
+			name = Debug;
+		};
+		849CE466255B93E6007565FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STC4XW93GM;
+				INFOPLIST_FILE = BoomerangEffectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkatagovadrhangoli.BoomerangEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoomerangEffect.app/BoomerangEffect";
+			};
+			name = Release;
+		};
+		849CE468255B93E6007565FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STC4XW93GM;
+				INFOPLIST_FILE = BoomerangEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkatagovadrhangoli.BoomerangEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoomerangEffect;
+			};
+			name = Debug;
+		};
+		849CE469255B93E6007565FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STC4XW93GM;
+				INFOPLIST_FILE = BoomerangEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkatagovadrhangoli.BoomerangEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoomerangEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849CE432255B93E3007565FF /* Build configuration list for PBXProject "BoomerangEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CE45F255B93E6007565FF /* Debug */,
+				849CE460255B93E6007565FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849CE461255B93E6007565FF /* Build configuration list for PBXNativeTarget "BoomerangEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CE462255B93E6007565FF /* Debug */,
+				849CE463255B93E6007565FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849CE464255B93E6007565FF /* Build configuration list for PBXNativeTarget "BoomerangEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CE465255B93E6007565FF /* Debug */,
+				849CE466255B93E6007565FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849CE467255B93E6007565FF /* Build configuration list for PBXNativeTarget "BoomerangEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849CE468255B93E6007565FF /* Debug */,
+				849CE469255B93E6007565FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849CE42F255B93E3007565FF /* Project object */;
+}
