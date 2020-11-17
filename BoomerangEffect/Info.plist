@@ -62,5 +62,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>&quot;Need access to camera&quot;</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>&quot;Need to access microphone&quot;</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>&quot;App need permission to store videos&quot;</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>&quot;App need permission to store videos&quot;</string>
 </dict>
 </plist>

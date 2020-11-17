@@ -10,11 +10,13 @@
 		849CE43B255B93E3007565FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE43A255B93E3007565FF /* AppDelegate.swift */; };
 		849CE43D255B93E3007565FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE43C255B93E3007565FF /* SceneDelegate.swift */; };
 		849CE43F255B93E3007565FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE43E255B93E3007565FF /* ViewController.swift */; };
-		849CE442255B93E3007565FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CE440255B93E3007565FF /* Main.storyboard */; };
 		849CE444255B93E6007565FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CE443255B93E6007565FF /* Assets.xcassets */; };
 		849CE447255B93E6007565FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CE445255B93E6007565FF /* LaunchScreen.storyboard */; };
 		849CE452255B93E6007565FF /* BoomerangEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE451255B93E6007565FF /* BoomerangEffectTests.swift */; };
 		849CE45D255B93E6007565FF /* BoomerangEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE45C255B93E6007565FF /* BoomerangEffectUITests.swift */; };
+		849CE46E255B9429007565FF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE46D255B9429007565FF /* CameraViewController.swift */; };
+		849CE473255B9521007565FF /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CE472255B9521007565FF /* CameraPreviewView.swift */; };
+		849CE47B255B9909007565FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CE47A255B9909007565FF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		849CE43A255B93E3007565FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849CE43C255B93E3007565FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		849CE43E255B93E3007565FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		849CE441255B93E3007565FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849CE443255B93E6007565FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849CE446255B93E6007565FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849CE448255B93E6007565FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		849CE458255B93E6007565FF /* BoomerangEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomerangEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849CE45C255B93E6007565FF /* BoomerangEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangEffectUITests.swift; sourceTree = "<group>"; };
 		849CE45E255B93E6007565FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849CE46D255B9429007565FF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		849CE472255B9521007565FF /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		849CE47A255B9909007565FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				849CE43A255B93E3007565FF /* AppDelegate.swift */,
 				849CE43C255B93E3007565FF /* SceneDelegate.swift */,
 				849CE43E255B93E3007565FF /* ViewController.swift */,
-				849CE440255B93E3007565FF /* Main.storyboard */,
+				849CE46D255B9429007565FF /* CameraViewController.swift */,
+				849CE472255B9521007565FF /* CameraPreviewView.swift */,
+				849CE47A255B9909007565FF /* Main.storyboard */,
 				849CE443255B93E6007565FF /* Assets.xcassets */,
 				849CE445255B93E6007565FF /* LaunchScreen.storyboard */,
 				849CE448255B93E6007565FF /* Info.plist */,
@@ -231,9 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849CE47B255B9909007565FF /* Main.storyboard in Resources */,
 				849CE447255B93E6007565FF /* LaunchScreen.storyboard in Resources */,
 				849CE444255B93E6007565FF /* Assets.xcassets in Resources */,
-				849CE442255B93E3007565FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				849CE43F255B93E3007565FF /* ViewController.swift in Sources */,
+				849CE46E255B9429007565FF /* CameraViewController.swift in Sources */,
+				849CE473255B9521007565FF /* CameraPreviewView.swift in Sources */,
 				849CE43B255B93E3007565FF /* AppDelegate.swift in Sources */,
 				849CE43D255B93E3007565FF /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		849CE440255B93E3007565FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849CE441255B93E3007565FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		849CE445255B93E6007565FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
